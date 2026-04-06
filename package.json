@@ -7,6 +7,7 @@
     "build": "esbuild src/main.js --bundle --outfile=dist/bundle.js",
     "dev": "esbuild src/main.js --bundle --outfile=dist/bundle.js --watch --servedir=.",
     "build:dict": "node scripts/build-dictionary.js",
+    "build:prod": "esbuild src/main.js --bundle --minify --outfile=dist/bundle.js && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
