@@ -1,0 +1,26 @@
+{
+  "name": "glyphguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --outfile=dist/bundle.js",
+    "dev": "esbuild src/main.js --bundle --outfile=dist/bundle.js --watch --servedir=.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohjonho/glyphguard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ohjonho/glyphguard/issues"
+  },
+  "homepage": "https://github.com/ohjonho/glyphguard#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
